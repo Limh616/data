@@ -1,0 +1,38 @@
+
+## Overview
+
+    This repository contains simulated paired-reads data for three coronaviruses:
+        - **SARS-CoV-1**
+        - **MERS-CoV**
+        - **SARS-CoV-2**
+
+    Supplementary files of the papers are provided for reference and further insights.
+
+## Contents
+
+    The repository includes the following:
+
+    ### Simulated Paired-Reads Data
+
+    - Each virus has its own directory containing the paired-end reads in FASTQ format:
+        
+        - **SARS-CoV-1**
+        - `sars_50k1.fastq`
+        - `sars_50k2.fastq`
+
+        - **MERS-CoV**
+        - `mers_50k1.fastq`
+        - `mers_50k2.fastq`
+
+        - **SARS-CoV-2**
+        - `sars_cov2_50x1.fastq`
+        - `sars_cov2_50x2.fastq`
+
+    ### Supplementary Files
+
+    - The supplementary files contain an explanation of parameter selection, an assessment of 
+    computing resource usage, detailed evaluation results, and command lines for benchmarking.
+        
+        - **VirDiG_Supplementary.pdf**
+
+    
